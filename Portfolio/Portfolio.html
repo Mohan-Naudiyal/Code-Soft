@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="sec1">
+    <div class="container">
+        <h2 style="color: red;">Mohan</h2>
+        <div class="nav1">
+            <a href="#main" class="item">Home</a>
+            <a href="#about" class="item">About</a>
+            <a href="#project" class="item">Project</a>
+            <a href="#" class="item">PortFolio</a>
+            <a href="#contact" class="item">Contact</a>
+        </div>
+        
+    </div>
+        <section class="main" id="main">
+            <div class="main-container">
+                <div class="left">
+                    <h1>Hi,I'm <span id="name1" style="color: rgba(237, 32, 32, 0.998);">Mohan </span></h1>
+                    <h2>I'm</h2>
+                    <span id="element" style="color: rgb(228, 20, 20); font-weight: 600;"></span>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus expedita magnam nobis consectetur, molestias quidem nisi, necessitatibus repellendus totam veniam eveniet nemo quam earum excepturi sit ab iste. Incidunt.</p>
+                </div>
+                <div class="right">
+                    <img class="main-img" src="Mohan2.jpg" alt="Mohan pic" width="200px">
+                </div>
+            </div>
+        </section>
+        <div class="social">
+            <div class="social-link">
+                <a href="https://www.facebook.com/mohan.nautiyal.75"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="social-link">
+                <a href="https://www.instagram.com/er_mohan_naudiyal/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="social-link">
+                <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <br>
+        
+            <a href="Mohan Resume.pdf" id="btn1"><button id="btn">Download CV</button></a>
+       </div>
+       <section class="about" id="about">
+        <div class="row">
+            <div class="col-1">
+                <img src="Mohan1.jpg" alt="Mohan_pic" id="img">
+            </div>
+            <div class="col-2">
+                <div id="about_me">About Me</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quaerat natus corporis rem dolor delectus omnis atque obcaecati voluptatem! Aliquam fuga esse ea earum maiores asperiores repellendus, nostrum quas temporibus.</p>
+                <div class="tab-tites">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                    <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Web Designer</li>
+                        <li>Web Devloper</li>
+                        <li>Software Devloper</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="experince">
+                    <ul>
+                        <li>Internship - <span style="color: rgb(194, 255, 71);">Oasis Infobyte</span></li>
+                        <li>Internship - <span style="color: rgb(194, 255, 71);">CodeSoft</span></li>
+                        <li>Internship - <span style="color: rgb(194, 255, 71);">Octanet pvt. Ltd.</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li>Graduation - <span style="color: rgb(187, 255, 71);">Devbhoomi Uttarakhand University</span></li>
+                        <li>Diploma - <span style="color: rgb(203, 255, 71);">Govt. Polytechnic Srinagar Garhwal</span></li>
+                        <li>10th & 12th - <span style="color: rgb(194, 255, 71);">GIC Naugaonkhal</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="projects-container" id="project">
+        <h3>Projects</h3>
+        <div class="all-project">
+            <div class="project-container">
+                <div class="pro-image"> <img class="pro-image1" src="project1.webp" alt=""></div>
+                <div class="company-name"> Oasis Project</div>
+                <button class="btn">project</button> <button class="btn">code</button>
+             </div>
+             <div class="project-container">
+                 <div class="pro-image"> <img class="pro-image1" src="project2.jpeg" alt=""></div>
+                 <div class="company-name"> Octanet Project</div>
+                 <button class="btn">project</button> <button class="btn">  code</button>
+              </div>
+              <div class="project-container">
+                 <div class="pro-image"> <img class="pro-image1" src="project3.webp" alt=""></div>
+                 <div class="company-name"> CodeSoft Project</div>
+                 <button class="btn">project</button> <button class="btn">  code</button>
+              </div>
+              <div class="project-container">
+                 <div class="pro-image"> <img class="pro-image1" src="project4.webp" alt=""></div>
+                 <div class="company-name"> Oasis Internship Project</div>
+                 <button class="btn">project</button> <button class="btn"> code</button>
+              </div>
+        </div>
+       </section>
+
+       <section id="contact">
+        <div class="contact-container">
+            <div class="left-cont">
+                <span id="span"><h2>Contact Me</h2></span>
+                <div id="mail" class="number">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>naudiyalmohan129@gmail.com</h5> 
+                </div>
+                <br>
+                <div id="phone-number" class="number" >
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>8477839304</h5>
+                </div>
+                <div class="social">
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/mohan.nautiyal.75"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://www.instagram.com/er_mohan_naudiyal/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="social-link">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="social-link">
+                        <a href="https://github.com/dashboard"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="Mohan Resume.pdf" id="btn1" class="btn3"><button id="btn">Download CV</button></a>
+            </div>
+            <div class="right-cont">
+                <input type="text" name="user" id="name" placeholder="Your Name">
+                <input type="email" name="email" id="email" placeholder=" Your Email">
+                <textarea name="text" id="msg" placeholder="Your Messege"></textarea>
+                <button class="Submit">Submit</button>
+            </div>
+        </div>
+       </section>
+       
+       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+       <script>
+
+// ******************* Animation code*****************
+
+var typed = new Typed('#element', {
+      strings: [ 'WEB DESIGNER' ,' WEB DEVLOPER' , 'SOFTWARE DEVLOPER'],
+      typeSpeed: 100,
+      
+    });
+
+// *******************Event code*************************
+
+        let tablinks=document.getElementsByClassName('tab-links');
+        let tabcontants=document.getElementsByClassName('tab-contents') ;
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontant of tabcontants){
+                tabcontant.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    
+       </script>
+</body>
+</html>
